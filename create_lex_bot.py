@@ -1,8 +1,8 @@
 import boto3
 import time
 
-LEX_SERVICE_ROLE_ARN = 'arn:aws:iam::661256828619:role/Experience_Optimizer_POC'
-REGION = 'us-west-2'
+LEX_SERVICE_ROLE_ARN = 'arn:aws:iam::<AWSAccountID>:role/<RoleName>'
+REGION = 'us-west-2' #change 
 
 lex_client = boto3.client('lexv2-models', region_name=REGION)
 
