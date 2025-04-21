@@ -32,6 +32,7 @@ This project provides a Python script to **automate the creation of an Amazon Le
 git clone https://github.com/SubuNayak/lex-bot-creator-python.git
 cd lex-bot-creator-python
 
+---
 
 2. Set Up AWS Credentials
 
